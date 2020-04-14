@@ -1,0 +1,22 @@
+
+}
+
+
+
+/* For Tablets max-width: 1000px */
+@media (max-width:1000px){
+  .box .content{
+    width: 50%;
+
+}
+
+
+
+
+
+
+/* For Smartphones max-width: 670px*/
+@media (max-width:670px){
+  .box .content {
+      width: 25%;
+}
