@@ -10,6 +10,7 @@ a {
 
 li{
   list-style: none;
+  padding-bottom: 10px;
 
 }
 
@@ -20,6 +21,7 @@ h1 h2 h3 p{
 p{
   text-align: justify;
   line-height: 22px;
+  font-family: Copperplate;
 }
 
 mark{
@@ -78,29 +80,43 @@ header {
 }
 
 .header-list li{
-  font-family: monospace;
+
+  font-family: Copperplate;
   float:left;
   font-size: 18px;
   padding left: 30px;
   padding-right: 30px;
+  color: black;
 
 }
 
+.header-list li a{
+  color: rgb(236, 226, 198);
+  font-weight: 300px;
+}
+
 .header-left{
+
   float: left;
   padding-right: 0px;
 }
 
-.header-center{
-
-}
 
 .header-right{
+
   float: right;
   padding-top: 15px;
   padding left: 30px;
   padding-right: 30px;
 }
+
+.header-right a{
+  color: rgb(236, 226, 198);
+  font-weight: 300px;
+  font-family: Copperplate;
+  font-size: 18px;
+}
+
 
 /*top*/
 .top-wrapper {
@@ -109,7 +125,7 @@ header {
   text-align: center;
   background-image: url(sunshineee.jpg);
   background-size: cover;
-
+  letter-spacing: 2px;
 
 }
 
@@ -121,6 +137,7 @@ header {
   letter-spacing: 5px;
   margin-bottom: 10px;
   font-size: 58px;
+
 }
 
 .top-wrapper p {
@@ -197,6 +214,8 @@ header {
 
 .heading{
   text-align: center;
+  font-size: 18px;
+  font-family: Optima;
 }
 
 .box{
@@ -282,7 +301,7 @@ input, textarea {
   align: center;
 }
 
-.heading p{
+.heading-message p{
   text-align: center;
 }
 
@@ -290,8 +309,37 @@ input, textarea {
 
 footer{
   background-color: #126f80;
-  padding-top: 15px;
-  height: 50px;
+  height: 80px;
   width: 100%;
+  padding: 10px 0;
+  font-weight:200;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.footer li{
+  font-family: Copperplate;
+  float:left;
+  font-size: 18px;
+  color: white;
 
 }
+
+  .footer-left{
+    float: left;
+    padding-right: 0px;
+  }
+
+
+
+.footer-right{
+  float: right;
+}
+
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+
+
+  }
